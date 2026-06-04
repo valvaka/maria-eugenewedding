@@ -1,4 +1,3 @@
-<script>
 function animateChange(el, value) {
   if (el.textContent== String(value)) return;
   
@@ -30,8 +29,6 @@ animateChange(document.getElementById("minutes"), minutes);
   
 animateChange(document.getElementById("seconds"), seconds);
 }
-</script>
 updateTimer();
 setInterval(updateTimer, 1000);
-</script>
 </body>
