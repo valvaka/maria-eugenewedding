@@ -31,4 +31,3 @@ animateChange(document.getElementById("seconds"), seconds);
 }
 updateTimer();
 setInterval(updateTimer, 1000);
-</body>
