@@ -128,6 +128,7 @@ src="https://raw.githubusercontent.com/valvaka/anna-mia/main/annamia3.png"
     </div>
     <form 
         class="confirm-form"
+        id="confirmationForm"
         action="https://formsubmit.co/524b00c05dc9339cdf2ed155afa2bea8"
         method="POST"
     >
@@ -143,6 +144,17 @@ src="https://raw.githubusercontent.com/valvaka/anna-mia/main/annamia3.png"
         <button type="submit">Подтвердить</button>
     </form>
   </section>
+   <script>
+    const form = document.getElementById('confirmationForm');
+     if (form) {
+        form.addEventListener('submit', function(e) {
+          setTimeout(() => {
+            alert('Спасибо! Ваше присутствие подтверждено!');
+            form.reset();
+               }, 100);
+        });
+    }
+  </script>
   <section class="photo-ph">
     <div class="photo-ph-gallery">
       <img 
