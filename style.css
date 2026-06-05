@@ -76,9 +76,9 @@ body {
   position: absolute;
   
   top: 250px;
-  left: 40%;
+  left: 45%;
   
-  transform: tramslateX(-50%);
+  transform: traNslateX(-50%);
   
   font-family: "Lovers Quarrel", serif;
   font-size: 40px;
